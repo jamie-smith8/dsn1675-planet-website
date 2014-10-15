@@ -9,7 +9,6 @@ html {
   padding: 0;
   box-sizing: border-box;
 
-  font: normal 100%/1.5 sans-serif;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -25,62 +24,117 @@ body {
   padding: 0;
 }
 
-img {
+.img-flex {
   display: block;
   width: 100%;
 }
 
-.background {
-    background-color: #ccc;
+.masthead {
+  overflow: hidden;
 }
 
-.mars {
-    text-align: center;
-    margin: 0;
-    padding-bottom: 0.5em;
+.title {
+  text-align: center;
 }
 
 .nav {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
+  padding: 0;
 }
 
-.nav a {
-    display: block;
-    padding: 0.1em 0;
-    text-decoration: none;
-    color: #0074D9;
+.nav li {
+  display: block;
 }
 
-@media only screen and (min-width: 20em) {
-    
-     .nav li{
-        display: inline-block;
-        border: 0;
+.nav a,
+.nav a:link,
+.nav a:visited {
+  display: block;
+
+  color: #0074D9;
+  text-decoration: none;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active {
+  background-color: #0074D9;
+
+  color: #fff;
+}
+
+.section-dark {
+  background-color: #ccc;
+}
+
+.section-mid {
+  background-color: #e2e2e2;
+}
+
+.section {
+  background-color: #efefef;
+}
+
+.intro {
+  text-align: center;
+}
+
+ .h2-space-left {
+        padding-left: 1.5rem;
     }
-    
-    .nav {
-        text-align: center;
-        padding-bottom: 1em;
+
+ .p-space {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
     }
+      
+
+@media only screen and (min-width: 25em) {
+
+  .nav {
+    text-align: center;
+  }
+
+  .nav li {
+    display: inline-block;
+  }
+
+  .copyright {
+    text-align: center;
+  }
     
 }
 
 @media only screen and (min-width: 38em) {
+
+  .title,
+  .nav {
+    text-align: left;
+  }
+
+    .copyright {
+        text-align: left;
+    }
     
-    .mars {
-        float: left;
-        margin: 0;
-        padding: 0;
+    .nav-footer {
+        float: right;
+    }
+     
 }
-    
-    .nav {
-        padding: 0.7em;
+
+@media only screen and (min-width: 50em) {
+
+    .data dt {
+        width: 50%;
         float: left;
     }
     
-    .background {
-        overflow: hidden;
+    .move-data {
+        padding-left: 1.5rem;
     }
+    
+     .p-space {
+        padding-left: 0;
+    }
+    
+    
 }
