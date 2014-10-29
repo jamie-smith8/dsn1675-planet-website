@@ -115,6 +115,64 @@ span {
     display: none;
 }
 
+.join {
+    text-align: center;
+}
+
+form {
+    padding: 1.5em;
+    margin: 0 auto;
+    max-width: 50em;
+}
+
+.colourback {
+    background-color: #e2e2e2;
+}
+
+label {
+    display: block;  
+}
+
+input + label {
+    display: inline-block;
+}
+
+.inputbox {
+    width: 100%;
+    height: 3em;
+}
+
+textarea {
+    height: 18em;
+    width: 100%;
+}
+
+button {
+    font-size: 20px;
+    background-color: #efefef; 
+    margin-top: 0.5em;
+}
+
+.levels {
+    padding-right: 0.5em;
+    padding-bottom: 1em;
+}
+
+.yourlevel {
+   padding-top: 0.5em;
+    margin: 0;
+}
+
+.radio {
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.button {
+    text-align: center;
+}
+
+
 @media only screen and (min-width: 25em) {
 
   .nav {
