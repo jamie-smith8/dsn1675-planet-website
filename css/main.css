@@ -59,6 +59,7 @@ a:focus {
 
 .title {
   text-align: center;
+  font-family: 'Lobster', 'Brush Script MT Italic' serif;
 }
 
 .nav {
@@ -74,39 +75,39 @@ a:focus {
 .nav a:visited {
   display: block;
 
-  color: #0074D9;
+  color: #933;
   text-decoration: none;
 }
 
 .nav a:hover,
 .nav a:focus,
 .nav a:active {
-  background-color: #0074D9;
+  background-color: #952;
 
   color: #fff;
 }
 
 .section-dark {
-  background-color: #ccc;
+  background-color: #fffccc;
 }
 
 .section-mid {
-  background-color: #e2e2e2;
+  background-color: #ccffff;
 }
 
 .section {
-  background-color: #efefef;
+  background-color: #fffccc;
 }
 
 .intro {
   text-align: center;
 }
 
- .h2-space-left {
+.h2-space-left {
         padding-left: 1.5rem;
     }
 
- .p-space {
+.p-space {
         padding-left: 1.5rem;
         padding-right: 1.5rem;
     }
@@ -126,7 +127,7 @@ form {
 }
 
 .colourback {
-    background-color: #e2e2e2;
+    background-color: #ccffcc;
 }
 
 label {
@@ -149,7 +150,7 @@ textarea {
 
 button {
     font-size: 20px;
-    background-color: #efefef; 
+    background-color: #fffccc; 
     margin-top: 0.5em;
 }
 
@@ -172,6 +173,16 @@ button {
     text-align: center;
 }
 
+body#planet a#plannav,
+body#moons a#moonnav,
+body#exploration a#explornav {
+    color:  #fff;
+    background: #933;
+}
+
+.bitter {
+    font-family: 'Bitter', serif
+}
 
 @media only screen and (min-width: 25em) {
 
